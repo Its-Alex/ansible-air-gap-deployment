@@ -1,0 +1,8 @@
+all:
+  hosts:
+    server001:
+      ansible_host: 192.168.56.11
+      ansible_ssh_private_key_file: /home/vagrant/ssh_key/vagrant_dev
+      ansible_user: vagrant
+      ansible_become: True
+      ansible_python_interpreter: /usr/bin/python3
